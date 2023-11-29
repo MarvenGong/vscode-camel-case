@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="ic_support-a" x1="54.673%" x2="54.673%" y1="72.82%" y2="18.594%">
+      <stop offset="0%" stop-color="#0F4D4D"/>
+      <stop offset="100%" stop-color="#0F4D4D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ic_support-b" x1="0%" x2="98.1%" y1="56.378%" y2="43.622%">
+      <stop offset="0%" stop-color="#5990FF"/>
+      <stop offset="100%" stop-color="#495FF2"/>
+    </linearGradient>
+    <linearGradient id="ic_support-c" x1="47.527%" x2="47.527%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#00E09D"/>
+      <stop offset="73.96%" stop-color="#00D6B2"/>
+      <stop offset="100%" stop-color="#00D6B2" stop-opacity="0"/>
+    </linearGradient>
+    <polygon id="ic_support-e" points="38 29 42 28 42 51 38 52"/>
+    <filter id="ic_support-d" width="500%" height="166.7%" x="-200%" y="-16.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="80" height="80"/>
+    <path fill="url(#ic_support-a)" fill-rule="nonzero" d="M40,46 C22.3095662,46 8,51.0307069 8,58 C8,64.9692931 22.3095662,70 40,70 L41.0572816,69.9939879 C58.2570927,69.7979963 72,64.8299073 72,58 C72,51.1003998 57.9751942,46.100808 40.5296878,46.0015061 L40,46 Z M40,48 C56.5512556,48 70,52.8253597 70,58 C70,63.1746403 56.5512556,68 40,68 L39.0107304,67.9942454 C22.9161741,67.8068459 10,63.0711475 10,58 C10,52.8771061 23.1811144,48.0965421 39.5044034,48.0014431 L40,48 Z"/>
+    <ellipse cx="40" cy="50" fill="url(#ic_support-b)" rx="28" ry="10" style="mix-blend-mode:multiply"/>
+    <path fill="url(#ic_support-c)" d="M40,8 L16,32 L25,32 C26.6568542,32 28,33.3431458 28,35 L28,60 L28,60 L52,60 L52,35 C52,33.3431458 53.3431458,32 55,32 L64,32 L64,32 L40,8 Z" style="mix-blend-mode:multiply"/>
+    <use fill="#000" filter="url(#ic_support-d)" xlink:href="#ic_support-e"/>
+    <use fill="#FFF" xlink:href="#ic_support-e"/>
+  </g>
+</svg>

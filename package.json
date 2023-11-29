@@ -1,0 +1,94 @@
+{
+  "name": "vscode-camel-case",
+  "version": "1.0.1",
+  "description": "",
+	"main": "./src/extension",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publisher": "marvengong",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "author": "1637077309@qq.com",
+  "icon": "images/camel.png",
+  "license": "MIT",
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:html"
+  ],
+  "languages": [
+    {
+      "id": "javascript",
+      "extensions": [
+        ".js",
+        ".jsx"
+      ],
+      "aliases": [
+        "javascript",
+        "js"
+      ]
+    },
+    {
+      "id": "typescript",
+      "extensions": [
+        ".ts",
+        ".tsx"
+      ],
+      "aliases": [
+        "typescript",
+        "ts",
+        "tsx"
+      ]
+    }
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.toCamelCase",
+        "title": "代码中的下划线转为大驼峰"
+      },
+      {
+        "command": "extension.toCamelSingle",
+        "title": "转为大驼峰"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+.",
+        "mac": "cmd+.",
+        "command": "extension.toCamelSingle"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "extension.toCamelSingle",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "@tencent/eslint-config-prettier-typescript-react": "^2.0.0-alpha.2",
+    "@tencent/eslint-config-tencent": "^0.7.2",
+    "@tencent/prettier-config": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "lint-staged": "^10.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0"
+  }
+}
