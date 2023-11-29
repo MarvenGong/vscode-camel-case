@@ -4,7 +4,7 @@
 
 > vacode-camel-case 可以将选中代码的下划线风格转换成大驼峰风格，只需要一个组合快捷键就能轻松实现。
 
-![snippets](https://marven.cn-bj.ufileos.com/vscode-camel-case.gif)
+![snippets](images/vscode-camel-case.gif)
 
 ## 使用方法
 
