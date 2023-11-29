@@ -1,10 +1,10 @@
-# vacode-camel-case
+# vscode-camel-case
 
-![tea-helper](images/camel.png)
+![tea-helper](https://github.com/MarvenGong/vscode-camel-case/raw/main/images/camel.png)
 
 > vacode-camel-case 可以将选中代码的下划线风格转换成大驼峰风格，只需要一个组合快捷键就能轻松实现。
 
-![snippets](images/vscode-camel-case.gif)
+![snippets](https://github.com/MarvenGong/vscode-camel-case/raw/main/images/vscode-camel-case.gif)
 
 ## 使用方法
 
